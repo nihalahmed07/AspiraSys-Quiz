@@ -178,11 +178,11 @@ const tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 const crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
 
-window.addEventListener("resize", () => {
-  const queText = document.querySelector(".que_text");
-  if (window.innerWidth < 768) {
-    queText.style.fontSize = "18px";
-  } else {
-    queText.style.fontSize = "25px";
-  }
-});
+// window.addEventListener("resize", () => {
+//   const queText = document.querySelector(".que_text");
+//   if (window.innerWidth < 768) {
+//     queText.style.fontSize = "10px";
+//   } else {
+//     queText.style.fontSize = "25px";
+//   }
+// });
