@@ -212,9 +212,6 @@ section {
 section .que_text {
     font-size: 25px;
     font-weight: 600;
-}
-
-.que_text {
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
@@ -475,12 +472,12 @@ footer button.show {
         padding: 10px 25px;
     }
 
-    .que_text {
-        font-size: 18px;
+    section .que_text {
+        font-size: 12px;
     }
 
     .option_list .option {
-        font-size: 15px;
+        font-size: 12px !important;
         padding: 10px;
     }
 }
