@@ -38,7 +38,7 @@ nav h2 {
     font-size: bold;
     color: white;
     font-size: 20px;
-    
+
 }
 
 .start_btn,
@@ -213,6 +213,20 @@ section .que_text {
     font-size: 25px;
     font-weight: 600;
 }
+
+.que_text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.quiz_box section {
+    max-height: 60vh;
+    /* or any reasonable height */
+    overflow-y: auto;
+}
+
+
 
 section .option_list {
     padding: 20px 0px;
@@ -459,5 +473,16 @@ footer button.show {
     .start_btn button {
         font-size: 20px;
         padding: 10px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .que_text {
+        font-size: 18px;
+    }
+
+    .option_list .option {
+        font-size: 15px;
+        padding: 10px;
     }
 }
