@@ -474,9 +474,7 @@ footer button.show {
         font-size: 20px;
         padding: 10px 25px;
     }
-}
 
-@media (max-width: 768px) {
     .que_text {
         font-size: 18px;
     }
