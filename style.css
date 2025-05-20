@@ -473,11 +473,11 @@ footer button.show {
     }
 
     section .que_text {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .option_list .option {
-        font-size: 12px !important;
+        font-size: 15px !important;
         padding: 10px;
     }
 }
